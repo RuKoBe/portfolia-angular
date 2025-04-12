@@ -1,0 +1,23 @@
+@use "variables/color";
+@use "variables/size";
+
+.border-bottom-left-rounded {
+    border-bottom-left-radius: size.nBaseSize(2);
+}
+
+.border-top-left-rounded-6-50 {
+    border-top-left-radius: size.nBaseSize(6) 50%;
+}
+
+
+.border-bottom-right-rounded {
+    border-bottom-right-radius: size.nBaseSize(2);
+}
+
+.border-bottom-background {
+    border-bottom: 2px solid color.$background;
+}
+
+.border-rounded {
+    border-radius: size.nBaseSize(2);
+}

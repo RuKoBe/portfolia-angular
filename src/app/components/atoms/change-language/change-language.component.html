@@ -1,0 +1,19 @@
+<div class="change-language-container row bg-background-light border-bottom-left-rounded padding-2">
+        <button
+            class="button-flat font-size-1 background"
+            [class.border-bottom-background]="isGermanSelected()"
+            [class.margin-bottom-2px]="isEnglishSelected()"
+            (click)="changeLanguage(APPLICATION_LANGUAGE.DE)"
+        >
+            <b>DE</b>
+        </button>
+
+        <button
+            class="button-flat font-size-1 background"
+            [class.border-bottom-background]="isEnglishSelected()"
+            [class.margin-bottom-2px]="isGermanSelected()"
+            (click)="changeLanguage(APPLICATION_LANGUAGE.EN)"
+        >
+            <b>EN</b>
+        </button>
+</div>

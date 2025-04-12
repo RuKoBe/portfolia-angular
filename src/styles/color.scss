@@ -1,0 +1,25 @@
+@use "variables/color";
+
+body {
+  background-color: color.$background;
+}
+
+.red {
+  color: color.$red;
+}
+
+.bg-background-light {
+    background-color: color.$background-light;
+}
+
+.bg-background {
+  background-color: color.$background;
+}
+
+.text {
+    color: color.$text;
+}
+
+.background {
+    color: color.$background;
+}

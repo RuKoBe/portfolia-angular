@@ -1,0 +1,11 @@
+@use "../../../../styles/variables/size.scss";
+@use "../../../../styles/variables/color.scss";
+
+.active {
+    box-shadow: size.nBaseSize(0.5) size.nBaseSize(0.5) size.nBaseSize(0.5) color.$red;
+}
+
+.card-container div {
+    cursor: pointer;
+    font-weight: bolder;
+}

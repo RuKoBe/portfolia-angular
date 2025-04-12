@@ -1,0 +1,18 @@
+<p
+    class="margin-0 font-weight-bold"
+    [style.fontSize]="`${baseFontSizeMultiplier() * BASE_FONT_SIZE}px`"
+>
+    @if(isTag()) {
+        <span [class]="tagColorClass()">
+            <
+        </span>
+    }
+
+    {{title()}}
+
+    @if(isTag()) {
+        <span [class]="tagColorClass()">
+            />
+        </span>
+    }
+</p>

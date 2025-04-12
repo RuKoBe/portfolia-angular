@@ -1,0 +1,80 @@
+<div class="row margin-top--10">
+    <div class="col">
+        <div class="border-bottom-right-rounded h-tab-height padding-bottom-1 bg-background"></div>
+    </div>
+    <div class="bg-background-light col border-top-left-rounded-6-50 padding-2">
+        <atom-title
+            class="margin-left-1-5"
+            [title]="'i18n.landing-page.who-am-i.title' | translate"
+            [baseFontSizeMultiplier]="3"
+        ></atom-title>
+    </div>
+</div>
+
+<div class="bg-background-light margin-top--2 padding-2 font-size-1-5">
+    <div class="row margin-4 card-container">    
+        <div 
+            class="col padding-2 border-rounded margin-l bg-background font-size-1-5"
+            [class.active]="selectedTab() === TABS.EXPERIENCE"
+            (click)="selectedTab.set(TABS.EXPERIENCE)"
+        >
+           <p class="margin-0 text-center">Erfahrung</p>
+        </div>
+
+        <div 
+            class="col padding-2 border-rounded margin-l bg-background font-size-1-5 margin-left-2"
+            [class.active]="selectedTab() === TABS.CERTIFICATES"
+            (click)="selectedTab.set(TABS.CERTIFICATES)"
+        >
+           <p class="margin-0 text-center">Zertifikate</p>
+        </div>
+
+        <div 
+            class="col padding-2 border-rounded margin-l bg-background font-size-1-5 margin-left-2"
+            [class.active]="selectedTab() === TABS.TECHNOLOGIES"
+            (click)="selectedTab.set(TABS.TECHNOLOGIES)"
+        >
+           <p class="margin-0 text-center">Technologien</p>
+        </div>
+
+        <div 
+            class="col padding-2 border-rounded margin-l bg-background font-size-1-5 margin-left-2"
+            [class.active]="selectedTab() === TABS.WORK"
+            (click)="selectedTab.set(TABS.WORK)"
+        >
+           <p class="margin-0 text-center">Arbeit</p>
+        </div>
+
+        <div 
+            class="col padding-2 border-rounded margin-l bg-background font-size-1-5 margin-left-2"
+            [class.active]="selectedTab() === TABS.PRIVATE"
+            (click)="selectedTab.set(TABS.PRIVATE)"
+        >
+           <p class="margin-0 text-center">Über mich</p>
+        </div>
+    </div>
+
+    <div class="bg-background margin-4 padding-4 border-rounded">
+        TAB
+    </div>
+
+    <div class="bg-background margin-4 padding-4 border-rounded">
+        TAB
+    </div>
+
+    <div class="bg-background margin-4 padding-4 border-rounded">
+        TAB
+    </div>
+
+    <div class="bg-background margin-4 padding-4 border-rounded">
+        TAB
+    </div>
+
+    <div class="bg-background margin-4 padding-4 border-rounded">
+        TAB
+    </div>
+
+    <div class="bg-background margin-4 padding-4 border-rounded">
+        TAB
+    </div>
+</div>

@@ -1,0 +1,20 @@
+.row {
+    display: flex;
+    flex: 1;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.col-static{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.justify-content-center {
+    justify-content: center;
+}

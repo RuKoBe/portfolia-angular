@@ -1,0 +1,11 @@
+$base: 8px;
+$base-font-size: $base * 2;
+
+
+@function nBaseSize($n) {
+    @return $base * $n;
+}
+
+@function nBaseFontSize($n) {
+    @return $base-font-size * $n;
+}

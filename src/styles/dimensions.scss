@@ -1,0 +1,114 @@
+@use "variables/size";
+
+//GLOBAL
+body {
+    margin: 0;
+}
+
+// PADDING
+.padding-0 {
+    padding: 0;
+}
+
+.padding-1 {
+    padding: size.$base;
+}
+
+.padding-2 {
+    padding: size.nBaseSize(2);
+}
+
+.padding-4 {
+    padding: size.nBaseSize(4);
+}
+
+.padding-right-1 {
+    padding-right: size.$base;
+}
+
+.padding-left-0 {
+    padding-left: 0;
+}
+
+.padding-bottom-1 {
+    padding-bottom: size.$base;
+}
+
+.padding-top-4 {
+    padding-top: size.nBaseSize(4);
+}
+
+// MARGIN
+.margin-0 {
+    margin: 0;
+}
+
+.margin-2 {
+    margin: size.nBaseSize(2);
+}
+
+.margin-4 {
+    margin: size.nBaseSize(4);
+}
+
+.margin-top-8 {
+    margin-top: size.nBaseSize(8);
+}
+
+.margin-top-25vh {
+    margin-top: 25vh;
+}
+
+.margin-top--2 {
+    margin-top: size.nBaseSize(-2);
+}
+
+.margin-top--10 {
+    margin-top: size.nBaseSize(-10);
+}
+
+.margin-bottom-2px {
+    margin-bottom: 2px;
+}
+
+.margin-left-1-5 {
+    margin-left: size.nBaseSize(1.5);
+}
+
+.margin-left-6 {
+    margin-left: size.nBaseSize(6);
+}
+
+.margin-left-2 {
+    margin-left: size.nBaseSize(2);
+}
+
+//HEIGHT
+.h-50vh {
+    height: 50vh;
+}
+
+.h-10vh {
+    height: 10vh;
+}
+
+.h-100vh {
+    height: 100vh;
+}
+
+.h-tab-height {
+    height: size.nBaseSize(4) + size.nBaseFontSize(3);
+}
+
+//WIDTH
+.w-fit-content {
+    width: fit-content;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-50 {
+    width: 50%;
+}

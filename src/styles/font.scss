@@ -1,0 +1,29 @@
+@use "variables/color";
+@use "variables/size";
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../assets/fonts/roboto/roboto.ttf");
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: color.$text;
+    font-size: size.$base-font-size;
+}
+
+.font-size-1 {
+    font-size: size.$base-font-size;
+}
+
+.font-size-1-5 {
+    font-size: size.nBaseFontSize(1.5);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
