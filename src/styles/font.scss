@@ -12,6 +12,15 @@ body {
     font-size: size.$base-font-size;
 }
 
+a {
+    color: color.$text;
+    text-decoration-color: color.$red;
+}
+
+.text {
+    color: color.$text;
+}
+
 .font-size-1 {
     font-size: size.$base-font-size;
 }
@@ -22,6 +31,10 @@ body {
 
 .text-center {
     text-align: center;
+}
+
+.text-right {
+    text-align: right;
 }
 
 .font-weight-bold {

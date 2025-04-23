@@ -1,5 +1,6 @@
 {
     "i18n.landing-page.greeting": "Hi ich bin",
+    "i18n.landing-page.greeting.blog": "Auf der Suche nach meinem <a href='/blog'>Blog</a>?",
     "i18n.landing-page.who-am-i.title": "Wer bin ich?",
     "i18n.landing-page.who-am-i.experience": "Erfahrung",
     "i18n.landing-page.who-am-i.experience.workplaces.swisscom": "Swisscom",
