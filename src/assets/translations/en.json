@@ -1,4 +1,7 @@
 {
     "i18n.landing-page.greeting": "Hi my name is",
-    "i18n.landing-page.who-am-i.title": "Who am I?"
+    "i18n.landing-page.who-am-i.title": "Who am I?",
+    "i18n.landing-page.who-am-i.experience": "Experience",
+    "i18n.landing-page.who-am-i.certificates": "Certificates",
+    "i18n.landing-page.who-am-i.technologies": "Technologies"
 }

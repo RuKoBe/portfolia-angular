@@ -1,7 +1,7 @@
 <div class="change-language-container row bg-background-light border-bottom-left-rounded padding-2">
         <button
             class="button-flat font-size-1 background"
-            [class.border-bottom-background]="isGermanSelected()"
+            [class.border-bottom-red]="isGermanSelected()"
             [class.margin-bottom-2px]="isEnglishSelected()"
             (click)="changeLanguage(APPLICATION_LANGUAGE.DE)"
         >
@@ -10,7 +10,7 @@
 
         <button
             class="button-flat font-size-1 background"
-            [class.border-bottom-background]="isEnglishSelected()"
+            [class.border-bottom-red]="isEnglishSelected()"
             [class.margin-bottom-2px]="isGermanSelected()"
             (click)="changeLanguage(APPLICATION_LANGUAGE.EN)"
         >

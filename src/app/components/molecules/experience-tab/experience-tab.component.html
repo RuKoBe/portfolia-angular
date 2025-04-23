@@ -1,0 +1,40 @@
+@for (workplace of WORKPLACES; track workplace) {
+    @let baseI18nString = `i18n.landing-page.who-am-i.experience.workplaces.${workplace}`;
+
+    <div class="bg-background padding-4 border-rounded margin-bottom-2">
+        <div class="row">
+            <div class="col border-right-red">
+                <atom-title
+                    [title]="`${baseI18nString}.position` | translate"
+                    [baseFontSizeMultiplier]="2"
+                    [hasWavyUnderline]="true"
+                ></atom-title>
+
+                    <p class="margin-0 margin-top-1 font-size-1-5">
+                        {{ `${baseI18nString}.duration` | translate }}
+                    </p>
+
+                    <p class="margin-top-1 font-size-1-5">
+                        {{ baseI18nString | translate }}
+                    </p>
+            </div>
+
+            <div class="col">
+                <p class="col padding-left-4 margin-0 text-align-justify">
+                    {{ `${baseI18nString}.description` | translate }}
+                </p>
+
+                <div class="row padding-left-4 margin-top-2">
+                    @for (skill of getSkills(workplace); track skill; let isFirst = $first) {
+                       <span 
+                        class="bg-red border-rounded padding-1 h-fit-content"
+                        [class.margin-left-1]="!isFirst"
+                       >
+                        {{ skill }}
+                       </span>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+}

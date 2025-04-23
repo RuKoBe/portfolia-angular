@@ -27,3 +27,11 @@ body {
 .font-weight-bold {
     font-weight: bold;
 }
+
+.text-decoration-underline-red {
+    text-decoration: underline color.$red;
+}
+
+.text-align-justify  {
+    text-align: justify;
+}

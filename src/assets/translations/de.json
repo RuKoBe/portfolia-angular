@@ -1,4 +1,19 @@
 {
     "i18n.landing-page.greeting": "Hi ich bin",
-    "i18n.landing-page.who-am-i.title": "Wer bin ich?"
+    "i18n.landing-page.who-am-i.title": "Wer bin ich?",
+    "i18n.landing-page.who-am-i.experience": "Erfahrung",
+    "i18n.landing-page.who-am-i.experience.workplaces.swisscom": "Swisscom",
+    "i18n.landing-page.who-am-i.experience.workplaces.swisscom.position": "DevOps Engineer mit Frontend Lead",
+    "i18n.landing-page.who-am-i.experience.workplaces.swisscom.duration": "03.2024 - Aktuell",
+    "i18n.landing-page.who-am-i.experience.workplaces.swisscom.description": "Als DevOps Engineer trage ich zur Entwicklung eines internen Tools bei. Mein Tätigkeitsfokus liegt auf der Implementation des Frontends welches mit Angular realisiert wird. Für dieses trage ich als Frontend Lead auch die Verantwortung. Ausserdem unterstütze ich die Entwicklung unseres Spring Boot Backends.",
+    "i18n.landing-page.who-am-i.experience.workplaces.swisscom.skills": "Angular,Spring Boot,TypeScript,Java,RxJS,Docker,Release Management",
+    "i18n.landing-page.who-am-i.experience.workplaces.noseryoung": "Noser Young",
+    "i18n.landing-page.who-am-i.experience.workplaces.noseryoung.position": "Ausbildner Applikationsentwicklung",
+    "i18n.landing-page.who-am-i.experience.workplaces.noseryoung.duration": "08.2023 - 02.2024",
+    "i18n.landing-page.who-am-i.experience.workplaces.noseryoung.description": "Diese Position erlaubt es mir Lernende während Ihren ersten Schritten in die Berufswelt zu begleiten und zu fördern. So kann ich bereits erste Führungserfahrung sammeln und mein vorhandenes und neuangeeignetes Wissen festigen und weitergeben.",
+    "i18n.landing-page.who-am-i.experience.workplaces.noseryoung.skills": "Spring Boot,Java,Frontend-Entwicklung,Management,Ausbilden",
+    "i18n.landing-page.who-am-i.certificates": "Zertifikate",
+    "i18n.landing-page.who-am-i.technologies": "Technologien",
+    "i18n.landing-page.who-am-i.references": "Referenzen"
+
 }

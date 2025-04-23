@@ -15,6 +15,7 @@ export class TitleComponent {
     colorClass = input<string>('red');
     isTag = input<boolean>(false);
     tagColorClass = input<string>(EMPTY_STRING)
+    hasWavyUnderline = input<boolean>(false);
 
     readonly BASE_FONT_SIZE = BASE_FONT_SIZE;
 

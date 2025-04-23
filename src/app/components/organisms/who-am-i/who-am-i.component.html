@@ -1,0 +1,64 @@
+<div class="row margin-top--10">
+    <div class="col">
+        <div class="border-bottom-right-rounded h-tab-height padding-bottom-1 bg-background"></div>
+    </div>
+    <div class="bg-background-light col border-top-left-rounded-6-50 padding-2">
+        <atom-title
+            class="margin-left-1-5"
+            [title]="'i18n.landing-page.who-am-i.title' | translate"
+            [baseFontSizeMultiplier]="3"
+        ></atom-title>
+    </div>
+</div>
+
+<div class="bg-background-light margin-top--2 padding-2">
+    <div class="row margin-4 card-container">    
+        <div 
+            class="col padding-2 border-rounded margin-l bg-background"
+            [class.active]="selectedTab() === TABS.EXPERIENCE"
+            (click)="selectedTab.set(TABS.EXPERIENCE)"
+        >
+           <p class="margin-0 text-center font-size-1-5">
+                {{ 'i18n.landing-page.who-am-i.experience' | translate }}
+           </p>
+        </div>
+
+        <div 
+            class="col padding-2 border-rounded margin-l bg-background margin-left-2"
+            [class.active]="selectedTab() === TABS.CERTIFICATES"
+            (click)="selectedTab.set(TABS.CERTIFICATES)"
+        >
+           <p class="margin-0 text-center font-size-1-5">
+                {{ 'i18n.landing-page.who-am-i.certificates' | translate }}
+           </p>
+        </div>
+
+        <div 
+            class="col padding-2 border-rounded margin-l bg-background margin-left-2"
+            [class.active]="selectedTab() === TABS.TECHNOLOGIES"
+            (click)="selectedTab.set(TABS.TECHNOLOGIES)"
+        >
+           <p class="margin-0 text-center font-size-1-5">
+                {{ 'i18n.landing-page.who-am-i.technologies' | translate }}
+           </p>
+        </div>
+
+        <div 
+            class="col padding-2 border-rounded margin-l bg-background margin-left-2"
+            [class.active]="selectedTab() === TABS.REFERENCES"
+            (click)="selectedTab.set(TABS.REFERENCES)"
+        >
+           <p class="margin-0 text-center font-size-1-5">
+                {{ 'i18n.landing-page.who-am-i.references' | translate }}
+           </p>
+        </div>
+    </div>
+
+    <div class="margin-x-4">
+        @switch (selectedTab()) {
+            @case (TABS.EXPERIENCE) {
+                <molecule-experience-tab></molecule-experience-tab>
+            }
+        }
+    </div>
+</div>

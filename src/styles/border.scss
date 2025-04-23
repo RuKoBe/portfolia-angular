@@ -9,13 +9,16 @@
     border-top-left-radius: size.nBaseSize(6) 50%;
 }
 
-
 .border-bottom-right-rounded {
     border-bottom-right-radius: size.nBaseSize(2);
 }
 
-.border-bottom-background {
-    border-bottom: 2px solid color.$background;
+.border-bottom-red {
+    border-bottom: 2px solid color.$red;
+}
+
+.border-right-red {
+    border-right: 2px solid color.$background-light;
 }
 
 .border-rounded {
